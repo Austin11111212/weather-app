@@ -13,7 +13,7 @@ const App = () => {
   const handleSearch = async () => {
     if (!city) return;
 
-    const API_KEY = 'f8542db157172d2734dd810ff8046154';  // Replace with your actual OpenWeatherMap API key
+    const API_KEY = '';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
     try {
