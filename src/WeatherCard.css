@@ -1,0 +1,31 @@
+/* App.css */
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .weather-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .weather-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  @media (max-width: 600px) {
+    .weather-card {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
